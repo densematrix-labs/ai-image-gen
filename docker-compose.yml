@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ai-image-gen-frontend
+    ports:
+      - "30122:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - ai-image-gen-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 10s
+      start_period: 5s
+      retries: 3
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: ai-image-gen-backend
+    ports:
+      - "30123:8000"
+    environment:
+      - DATABASE_URL=sqlite+aiosqlite:///./app.db
+      - LLM_PROXY_URL=${LLM_PROXY_URL:-https://llm-proxy.densematrix.ai}
+      - LLM_PROXY_KEY=${LLM_PROXY_KEY}
+      - CREEM_API_KEY=${CREEM_API_KEY}
+      - CREEM_WEBHOOK_SECRET=${CREEM_WEBHOOK_SECRET}
+      - CREEM_PRODUCT_IDS=${CREEM_PRODUCT_IDS}
+      - TOOL_NAME=ai-image-gen
+    volumes:
+      - backend-data:/app/data
+    restart: unless-stopped
+    networks:
+      - ai-image-gen-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 10s
+      start_period: 5s
+      retries: 3
+
+networks:
+  ai-image-gen-network:
+    driver: bridge
+
+volumes:
+  backend-data:

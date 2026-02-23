@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "pricing": "Preise"
+  },
+  "hero": {
+    "title": "Erstelle beeindruckende KI-Bilder",
+    "subtitle": "Verwandle deine Ideen mit modernster KI in wunderschöne Bilder. Schnell, kostenlos und ohne Anmeldung.",
+    "alternative": "Die beste kostenlose Playground AI Alternative für Text-zu-Bild"
+  },
+  "generator": {
+    "promptLabel": "Beschreibe dein Bild",
+    "promptPlaceholder": "Eine ruhige Berglandschaft bei Sonnenuntergang mit goldenem Licht, das durch die Wolken filtert...",
+    "styleLabel": "Wähle einen Stil",
+    "generate": "Bild generieren",
+    "generating": "Erstelle Magie...",
+    "download": "Herunterladen",
+    "remaining": "{{count}} Generierungen übrig"
+  },
+  "styles": {
+    "default": "Standard",
+    "realistic": "Realistisch",
+    "anime": "Anime",
+    "digitalArt": "Digitale Kunst",
+    "oilPainting": "Ölgemälde",
+    "watercolor": "Aquarell",
+    "sketch": "Skizze",
+    "cyberpunk": "Cyberpunk",
+    "fantasy": "Fantasy"
+  },
+  "features": {
+    "title": "Warum AI Image Gen wählen?",
+    "fast": {
+      "title": "Blitzschnell",
+      "desc": "Generiere hochwertige Bilder in Sekunden mit unserer optimierten KI-Pipeline"
+    },
+    "styles": {
+      "title": "Mehrere Stile",
+      "desc": "Wähle aus realistisch, Anime, digitale Kunst und mehr einzigartigen Stilen"
+    },
+    "quality": {
+      "title": "HD-Qualität",
+      "desc": "Lade deine Kreationen in hoher Auflösung ohne Wasserzeichen herunter"
+    }
+  },
+  "comparison": {
+    "title": "AI Image Gen vs Playground AI",
+    "feature": "Funktion",
+    "freeTrial": "Kostenlose Testversion",
+    "freeImages": "kostenlose Bilder",
+    "limited": "Begrenzt",
+    "noSignup": "Keine Anmeldung erforderlich",
+    "multiModel": "Multi-Modell-Unterstützung",
+    "proprietary": "Nur proprietär",
+    "watermark": "Download ohne Wasserzeichen",
+    "noWatermark": "Kein Wasserzeichen",
+    "paidOnly": "Nur bezahlte Pläne"
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Keine Abonnements. Einmal bezahlen, jederzeit nutzen.",
+    "popular": "BELIEBTESTE",
+    "save": "Spare {{percent}}%",
+    "generations": "Bildgenerierungen",
+    "hdQuality": "HD-Qualitätsausgabe",
+    "noWatermark": "Keine Wasserzeichen",
+    "allStyles": "Alle Stile inklusive",
+    "buyNow": "Jetzt kaufen",
+    "processing": "Wird verarbeitet...",
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": "Laufen Guthaben ab?",
+      "a1": "Nein, deine Guthaben laufen nie ab. Nutze sie wann immer du möchtest.",
+      "q2": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "a2": "Wir akzeptieren alle gängigen Kreditkarten, PayPal und Apple Pay über unseren sicheren Zahlungsanbieter.",
+      "q3": "Kann ich eine Rückerstattung bekommen?",
+      "a3": "Wir bieten eine volle Rückerstattung innerhalb von 24 Stunden an, wenn du keine Guthaben verwendet hast."
+    }
+  },
+  "success": {
+    "title": "Zahlung erfolgreich!",
+    "subtitle": "Deine Guthaben wurden deinem Konto hinzugefügt.",
+    "processing": "Deine Zahlung wird verarbeitet...",
+    "error": "Etwas ist schief gelaufen",
+    "goHome": "Zur Startseite",
+    "yourCredits": "Deine Guthaben",
+    "credits": "Guthaben",
+    "startCreating": "Jetzt erstellen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "about": "Über uns",
+    "alternative": "AI Image Gen — Kostenlose Playground AI Alternative für Text-zu-Bild"
+  },
+  "errors": {
+    "generationFailed": "Bildgenerierung fehlgeschlagen. Bitte versuche es erneut.",
+    "unexpected": "Ein unerwarteter Fehler ist aufgetreten."
+  }
+}

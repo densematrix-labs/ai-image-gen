@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "pricing": "料金"
+  },
+  "hero": {
+    "title": "見事なAI画像を作成",
+    "subtitle": "最先端のAIでアイデアを美しい画像に変換。高速・無料・登録不要。",
+    "alternative": "テキストから画像生成の最高の無料Playground AI代替"
+  },
+  "generator": {
+    "promptLabel": "画像を説明してください",
+    "promptPlaceholder": "夕焼けに照らされた静かな山の風景、雲間から差し込む黄金色の光...",
+    "styleLabel": "スタイルを選択",
+    "generate": "画像を生成",
+    "generating": "生成中...",
+    "download": "ダウンロード",
+    "remaining": "残り {{count}} 回生成可能"
+  },
+  "styles": {
+    "default": "デフォルト",
+    "realistic": "リアリスティック",
+    "anime": "アニメ",
+    "digitalArt": "デジタルアート",
+    "oilPainting": "油絵",
+    "watercolor": "水彩",
+    "sketch": "スケッチ",
+    "cyberpunk": "サイバーパンク",
+    "fantasy": "ファンタジー"
+  },
+  "features": {
+    "title": "AI Image Genを選ぶ理由",
+    "fast": {
+      "title": "超高速",
+      "desc": "最適化されたAIパイプラインで数秒で高品質な画像を生成"
+    },
+    "styles": {
+      "title": "多彩なスタイル",
+      "desc": "リアル、アニメ、デジタルアートなど多様なスタイルから選択"
+    },
+    "quality": {
+      "title": "HD品質",
+      "desc": "透かしなしで高解像度でダウンロード"
+    }
+  },
+  "comparison": {
+    "title": "AI Image Gen vs Playground AI",
+    "feature": "機能",
+    "freeTrial": "無料トライアル",
+    "freeImages": "枚の無料画像",
+    "limited": "限定的",
+    "noSignup": "登録不要",
+    "multiModel": "マルチモデル対応",
+    "proprietary": "独自モデルのみ",
+    "watermark": "透かしなしダウンロード",
+    "noWatermark": "透かしなし",
+    "paidOnly": "有料プランのみ"
+  },
+  "pricing": {
+    "title": "シンプルで透明な料金",
+    "subtitle": "サブスクリプションなし。一度購入、いつでも使用。",
+    "popular": "人気No.1",
+    "save": "{{percent}}%オフ",
+    "generations": "画像生成回数",
+    "hdQuality": "HD品質出力",
+    "noWatermark": "透かしなし",
+    "allStyles": "全スタイル対応",
+    "buyNow": "今すぐ購入",
+    "processing": "処理中...",
+    "faq": {
+      "title": "よくある質問",
+      "q1": "クレジットに有効期限はありますか？",
+      "a1": "いいえ、クレジットに有効期限はありません。いつでもご利用いただけます。",
+      "q2": "どの支払い方法が使えますか？",
+      "a2": "安全な決済プロバイダーを通じて、主要なクレジットカード、PayPal、Apple Payに対応しています。",
+      "q3": "返金はできますか？",
+      "a3": "クレジットを使用していない場合、24時間以内であれば全額返金いたします。サポートにお問い合わせください。"
+    }
+  },
+  "success": {
+    "title": "お支払い完了！",
+    "subtitle": "クレジットがアカウントに追加されました。",
+    "processing": "お支払いを処理中...",
+    "error": "エラーが発生しました",
+    "goHome": "ホームに戻る",
+    "yourCredits": "あなたのクレジット",
+    "credits": "クレジット",
+    "startCreating": "作成を開始"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "about": "会社概要",
+    "alternative": "AI Image Gen — テキストから画像生成の無料Playground AI代替"
+  },
+  "errors": {
+    "generationFailed": "画像生成に失敗しました。もう一度お試しください。",
+    "unexpected": "予期せぬエラーが発生しました。"
+  }
+}

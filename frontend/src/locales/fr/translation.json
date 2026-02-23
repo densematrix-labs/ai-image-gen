@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "pricing": "Tarifs"
+  },
+  "hero": {
+    "title": "Créez des images IA époustouflantes",
+    "subtitle": "Transformez vos idées en belles images avec une IA de pointe. Rapide, gratuit et sans inscription.",
+    "alternative": "La meilleure alternative gratuite à Playground AI pour la génération texte-image"
+  },
+  "generator": {
+    "promptLabel": "Décrivez votre image",
+    "promptPlaceholder": "Un paysage de montagne serein au coucher du soleil avec une lumière dorée filtrant à travers les nuages...",
+    "styleLabel": "Choisissez un style",
+    "generate": "Générer l'image",
+    "generating": "Création en cours...",
+    "download": "Télécharger",
+    "remaining": "{{count}} générations restantes"
+  },
+  "styles": {
+    "default": "Par défaut",
+    "realistic": "Réaliste",
+    "anime": "Anime",
+    "digitalArt": "Art numérique",
+    "oilPainting": "Peinture à l'huile",
+    "watercolor": "Aquarelle",
+    "sketch": "Croquis",
+    "cyberpunk": "Cyberpunk",
+    "fantasy": "Fantaisie"
+  },
+  "features": {
+    "title": "Pourquoi choisir AI Image Gen ?",
+    "fast": {
+      "title": "Ultra rapide",
+      "desc": "Générez des images de haute qualité en quelques secondes avec notre pipeline IA optimisé"
+    },
+    "styles": {
+      "title": "Plusieurs styles",
+      "desc": "Choisissez parmi réaliste, anime, art numérique et d'autres styles uniques"
+    },
+    "quality": {
+      "title": "Qualité HD",
+      "desc": "Téléchargez vos créations en haute résolution sans filigrane"
+    }
+  },
+  "comparison": {
+    "title": "AI Image Gen vs Playground AI",
+    "feature": "Fonctionnalité",
+    "freeTrial": "Essai gratuit",
+    "freeImages": "images gratuites",
+    "limited": "Limité",
+    "noSignup": "Pas d'inscription requise",
+    "multiModel": "Support multi-modèles",
+    "proprietary": "Propriétaire uniquement",
+    "watermark": "Téléchargement sans filigrane",
+    "noWatermark": "Sans filigrane",
+    "paidOnly": "Forfaits payants uniquement"
+  },
+  "pricing": {
+    "title": "Tarification simple et transparente",
+    "subtitle": "Pas d'abonnement. Payez une fois, utilisez à tout moment.",
+    "popular": "LE PLUS POPULAIRE",
+    "save": "Économisez {{percent}}%",
+    "generations": "générations d'images",
+    "hdQuality": "Sortie qualité HD",
+    "noWatermark": "Sans filigrane",
+    "allStyles": "Tous les styles inclus",
+    "buyNow": "Acheter maintenant",
+    "processing": "Traitement...",
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": "Les crédits expirent-ils ?",
+      "a1": "Non, vos crédits n'expirent jamais. Utilisez-les quand vous voulez.",
+      "q2": "Quels modes de paiement acceptez-vous ?",
+      "a2": "Nous acceptons toutes les principales cartes de crédit, PayPal et Apple Pay via notre fournisseur de paiement sécurisé.",
+      "q3": "Puis-je obtenir un remboursement ?",
+      "a3": "Nous offrons un remboursement complet dans les 24 heures si vous n'avez utilisé aucun crédit."
+    }
+  },
+  "success": {
+    "title": "Paiement réussi !",
+    "subtitle": "Vos crédits ont été ajoutés à votre compte.",
+    "processing": "Traitement de votre paiement...",
+    "error": "Quelque chose s'est mal passé",
+    "goHome": "Retour à l'accueil",
+    "yourCredits": "Vos crédits",
+    "credits": "crédits",
+    "startCreating": "Commencer à créer"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "about": "À propos",
+    "alternative": "AI Image Gen — Alternative gratuite à Playground AI pour la génération texte-image"
+  },
+  "errors": {
+    "generationFailed": "Échec de la génération d'image. Veuillez réessayer.",
+    "unexpected": "Une erreur inattendue s'est produite."
+  }
+}

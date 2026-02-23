@@ -1,0 +1,98 @@
+{
+  "nav": {
+    "pricing": "价格"
+  },
+  "hero": {
+    "title": "创造惊艳的 AI 图像",
+    "subtitle": "用最先进的 AI 将你的想法变成精美图片。快速、免费、无需注册。",
+    "alternative": "最佳免费 Playground AI 替代品，文字生成图片"
+  },
+  "generator": {
+    "promptLabel": "描述你的图片",
+    "promptPlaceholder": "一个宁静的山景，夕阳西下，金色阳光穿透云层...",
+    "styleLabel": "选择风格",
+    "generate": "生成图片",
+    "generating": "创作中...",
+    "download": "下载",
+    "remaining": "剩余 {{count}} 次生成"
+  },
+  "styles": {
+    "default": "默认",
+    "realistic": "写实",
+    "anime": "动漫",
+    "digitalArt": "数字艺术",
+    "oilPainting": "油画",
+    "watercolor": "水彩",
+    "sketch": "素描",
+    "cyberpunk": "赛博朋克",
+    "fantasy": "奇幻"
+  },
+  "features": {
+    "title": "为什么选择 AI Image Gen？",
+    "fast": {
+      "title": "极速生成",
+      "desc": "优化的 AI 管线，几秒内生成高质量图片"
+    },
+    "styles": {
+      "title": "多种风格",
+      "desc": "写实、动漫、数字艺术等多种独特风格可选"
+    },
+    "quality": {
+      "title": "高清质量",
+      "desc": "高分辨率下载，无水印"
+    }
+  },
+  "comparison": {
+    "title": "AI Image Gen vs Playground AI",
+    "feature": "功能",
+    "freeTrial": "免费试用",
+    "freeImages": "张免费图片",
+    "limited": "有限",
+    "noSignup": "无需注册",
+    "multiModel": "多模型支持",
+    "proprietary": "仅限自有模型",
+    "watermark": "无水印下载",
+    "noWatermark": "无水印",
+    "paidOnly": "仅限付费版"
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "无订阅制。一次购买，随时使用。",
+    "popular": "最受欢迎",
+    "save": "节省 {{percent}}%",
+    "generations": "次图片生成",
+    "hdQuality": "高清画质输出",
+    "noWatermark": "无水印",
+    "allStyles": "包含所有风格",
+    "buyNow": "立即购买",
+    "processing": "处理中...",
+    "faq": {
+      "title": "常见问题",
+      "q1": "额度会过期吗？",
+      "a1": "不会，你的额度永不过期，可以随时使用。",
+      "q2": "支持哪些支付方式？",
+      "a2": "我们通过安全的支付提供商支持所有主流信用卡、PayPal 和 Apple Pay。",
+      "q3": "可以退款吗？",
+      "a3": "如果你在 24 小时内没有使用任何额度，我们提供全额退款。请联系客服协助处理。"
+    }
+  },
+  "success": {
+    "title": "支付成功！",
+    "subtitle": "额度已添加到你的账户。",
+    "processing": "正在处理你的支付...",
+    "error": "出了点问题",
+    "goHome": "返回首页",
+    "yourCredits": "你的额度",
+    "credits": "额度",
+    "startCreating": "开始创作"
+  },
+  "footer": {
+    "rights": "保留所有权利。",
+    "about": "关于我们",
+    "alternative": "AI Image Gen — 免费的 Playground AI 替代品，文字生成图片"
+  },
+  "errors": {
+    "generationFailed": "图片生成失败，请重试。",
+    "unexpected": "发生意外错误。"
+  }
+}
