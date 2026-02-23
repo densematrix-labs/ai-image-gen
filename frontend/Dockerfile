@@ -6,9 +6,11 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 
-# Copy source and build
+# Copy source (excluding test files via .dockerignore)
 COPY . .
-RUN npm run build
+
+# Skip type checking for build, rely on CI for that
+RUN npm run build -- --mode production || (cat /root/.npm/_logs/*.log && exit 1)
 
 # Production image
 FROM nginx:alpine

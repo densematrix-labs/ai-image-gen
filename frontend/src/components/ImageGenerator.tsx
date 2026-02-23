@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
-import { generateImage, getUsage } from '../lib/api'
+import { generateImage } from '../lib/api'
 import { useTokenStore } from '../stores/tokenStore'
 import { getDeviceId } from '../lib/fingerprint'
 
